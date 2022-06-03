@@ -1,0 +1,15 @@
+-- command02: print variable and a string in python
+
+abstract command02 = {
+
+	flags startcat = Request ;
+	cat
+		Request ; Action ; Object ; Circumstance ;
+	fun
+		Pred : Action -> Object -> Circumstance -> Request ;
+		Command : Action ;
+		Item : Object ;
+		Language : Circumstance ;
+
+}
+		
